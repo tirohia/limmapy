@@ -1,0 +1,14 @@
+dataDirectory: "/data/projects/classifiers/data/methylation/"
+resultsDirectory: "/data/projects/classifiers/results/methylation/models/"
+datafile: "/data/projects/classifiers/data/methylation/methylationHG38FilteredMValue.h5ad"
+
+
+parameter_grid:
+  featureSelection__rfeFeatureSelection__n_features_to_select:
+    - 50
+  modelRefinement__max_depth:
+    - null
+  modelRefinement__criterion:
+    - gini
+  modelRefinement__n_estimators:
+    - 100
